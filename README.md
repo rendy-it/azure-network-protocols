@@ -33,15 +33,15 @@ This tutorial demonstrates the methods of observing various network traffics to 
 
   
 
-<h2>Steps in Creating Virtual Machines in Azure</h2>
-<h2> << Step 1: Create a Resource Group >> </h2>
+<h2>Steps in Executing, Observing and Inspecting</h2>
+<h2> << Step 1: Connect to VM using RDP and Install Wireshark >> </h2>
 <p>
-<img width="465" height="241" alt="Step 1" src="https://github.com/user-attachments/assets/6195e77c-076f-408e-8be6-7c8edfd42411" />
+<img width="1351" height="394" alt="Step 1" src="https://github.com/user-attachments/assets/b472a94f-237c-40af-bba7-235dd7e06acb" />
+
 </p>
 <p>
   
-- On the Azure home page search bar, type “Resource Group”. 
-- Then, select “Resource Groups” under Services.
+- On the Virtual Machines page of your Azure Resource Group, make sure that both the Windows and Linux virtual machines have a status of “Running”.
 
 </p>
 <br />
