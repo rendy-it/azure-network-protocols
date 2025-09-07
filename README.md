@@ -89,13 +89,24 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 <p>
-<img width="1415" height="776" alt="Step 1c" src="https://github.com/user-attachments/assets/2d33530e-3ac4-4dc7-b109-1ec92f573263" />
+<img width="1391" height="721" alt="Step 1d" src="https://github.com/user-attachments/assets/2743908a-b103-46c6-9420-532158d595c4" />
+
 
 </p>
 <p>
   
 - Select the “Windows x64 Installer”.
-  - Once Downloaded, click and open the installer to install Wireshark.
+ 
+</p>
+<br />
+<p>
+<img width="1391" height="721" alt="Step 1d" src="https://github.com/user-attachments/assets/2743908a-b103-46c6-9420-532158d595c4" />
+
+
+</p>
+<p>
+  
+- Once Downloaded, click and open the installer to install Wireshark.
 
 </p>
 <br />
