@@ -46,44 +46,57 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 
-<p>
-<img width="543" height="396" alt="Step 1a" src="https://github.com/user-attachments/assets/957f27ad-3c2b-4754-8a76-9dddbb618df2" />
+<p><img width="1126" height="391" alt="Step 1a" src="https://github.com/user-attachments/assets/3c2fc1cd-7b2d-42b4-bf32-5e6eeeb8f4cd" />
+
 <p>
   
-- On the next page, click on “Create”.
+- Click on your Windows VM.
+- On the page of your Windows VM:		
+  - Copy the “Public IP address” number.
+
   
 </p>
 <br />
 
 <p>
-<img width="628" height="524" alt="Step 1b" src="https://github.com/user-attachments/assets/47d0db55-56de-4f6e-9585-54b210ba3571" />
+<img width="408" height="254" alt="Step 1b" src="https://github.com/user-attachments/assets/37a097f8-91f8-4cb3-98b0-3cbf8992ba99" /> <img width="88" height="255" alt="Right Pointing Arrow for Step 1b" src="https://github.com/user-attachments/assets/ec82bf95-1673-4a9d-9eac-8792446d056a" /> <img width="457" height="314" alt="Step 1b1" src="https://github.com/user-attachments/assets/7d2b24d7-db27-45e1-92a7-57ed8a0866f4" />
+
+
+
+
 </p>
 <p>
   
-- On the next page:
-    
-  - Select the subscription you prefer.
-    
-  - Create your resource group name.
-    
-  - Select a preferred region that is closest to you.
-    
-  - Then select “Review + Create”.
+- Open the Remote Desktop App:
+  - Paste the Windows VM ip address that you copied.
+  - Enter the Windows VM username and password that you created and click on Ok to login.
+
 
 </p>
 <br />
 
 <p>
-<img width="319" height="523" alt="Step 1c" src="https://github.com/user-attachments/assets/e7981b6c-b212-4ec0-8730-9c7fcb2f874b" />
+<img width="1415" height="776" alt="Step 1c" src="https://github.com/user-attachments/assets/2d33530e-3ac4-4dc7-b109-1ec92f573263" />
+
 </p>
 <p>
   
-- On the next page:
-    
-  - Double Check to make sure everything is to your liking.
-    
-  - Select “Create”.
-   
+- Once inside the VM:
+  - Go to the web browser.
+  - Go to www.wireshark.org.
+  - Click on “Download Now”.
+  
+</p>
+<br />
+<p>
+<img width="1415" height="776" alt="Step 1c" src="https://github.com/user-attachments/assets/2d33530e-3ac4-4dc7-b109-1ec92f573263" />
+
+</p>
+<p>
+  
+- Select the “Windows x64 Installer”.
+  - Once Downloaded, click and open the installer to install Wireshark.
+
 </p>
 <br />
 
