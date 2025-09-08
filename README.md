@@ -58,8 +58,8 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 
-<p>
-<img width="408" height="254" alt="Step 1b" src="https://github.com/user-attachments/assets/37a097f8-91f8-4cb3-98b0-3cbf8992ba99" /> <img width="88" height="255" alt="Right Pointing Arrow for Step 1b" src="https://github.com/user-attachments/assets/ec82bf95-1673-4a9d-9eac-8792446d056a" /> <img width="457" height="314" alt="Step 1b1" src="https://github.com/user-attachments/assets/7d2b24d7-db27-45e1-92a7-57ed8a0866f4" />
+<p><img width="338" height="210" alt="Step 1b" src="https://github.com/user-attachments/assets/f7f2adfd-977a-46f9-b21d-3e9b3bb90ad2" /> <img width="88" height="255" alt="Right Pointing Arrow for Step 1b" src="https://github.com/user-attachments/assets/ec82bf95-1673-4a9d-9eac-8792446d056a" /> <img width="343" height="235" alt="Step 1b1" src="https://github.com/user-attachments/assets/77f06005-fb1c-41eb-bdd5-0e107fc3bb20" />
+
 
 
 
