@@ -68,8 +68,8 @@ This tutorial demonstrates the methods of observing various network traffics to 
 <p>
   
 - Open the Remote Desktop App:
-  - Paste the Windows VM ip address that you copied.
-  - Enter the Windows VM username and password that you created and click on Ok to login.
+  - Paste the Windows VM ip address that you copied. Then click on Connect.
+  - Then, enter the Windows VM username and password that you created and click on Ok to login.
 
 
 </p>
