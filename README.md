@@ -100,8 +100,7 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 <p>
-<img width="1391" height="721" alt="Step 1d" src="https://github.com/user-attachments/assets/2743908a-b103-46c6-9420-532158d595c4" />
-
+<img width="1188" height="894" alt="Step 1e" src="https://github.com/user-attachments/assets/3012d681-9abd-43ba-928d-679d4294af85" />
 
 </p>
 <p>
@@ -111,17 +110,19 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 
-<h2> << Step 2: Create a Windows 10 Virtual Machine within Azure >> </h2>
+<h2> << Step 2: Observe ICMP (Internet Control Message Protocol) Traffic >> </h2>
 
 <p>
-<img width="366" height="430" alt="Step 2" src="https://github.com/user-attachments/assets/267b85c2-3469-4ae4-9987-fa30ca81901a" /> <img width="88" height="430" alt="Arrow-Pointing-Right" src="https://github.com/user-attachments/assets/45bfd18c-04b9-43ec-97eb-fee73f38c146" /> <img width="283" height="430" alt="Step 2a" src="https://github.com/user-attachments/assets/240fcf46-aef5-4da9-aae0-95aca704f553" />
+<img width="887" height="735" alt="Step 2a" src="https://github.com/user-attachments/assets/59a944af-95e9-4750-b433-bae4a85fa8bf" />
 
 </p>
 <p>
   
-- On the Azure home page, hover you mouse cursor on “Virtual Machines”. 
-  - A small window will appear, then click on “Create”.
-  - Then select “Virtual Machine” 
+- Open Wireshark:
+  - Click on “Ethernet”.
+  - Then click on the small blue shark fin icon that is at the top left corner.
+  - This will initiate a packet capture. 
+
 
 
 </p>
