@@ -239,26 +239,30 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 <p>
-<img width="645" height="815" alt="Step 3b" src="https://github.com/user-attachments/assets/98b50ea7-43c9-4079-9b63-774136dfe81d" />
+<img width="885" height="739" alt="Step 3b" src="https://github.com/user-attachments/assets/dec98a50-727d-478f-88f0-05423c558a2e" />
 
 </p>
 <p>
   
-- Then go to the “Networking” tab
-- Make sure to select the same Virtual Network as the Windows VM.
-- Keep everything else default and select “Review + create”
+- Go to the settings tab:
+  -	Click on “Inbound security rules” then click on “+Add”. 
+
 
 
 </p>
 <br />
-<p><img width="309" height="450" alt="Step 3c" src="https://github.com/user-attachments/assets/d45fc70e-8462-4f28-9b27-90c141e54950" /> <img width="88" height="442" alt="Arrow-Pointing-Right for Step 3c" src="https://github.com/user-attachments/assets/4818d701-1d71-4125-ad02-8b2d8f4ad061" /> <img width="315" height="450" alt="Step 3c1" src="https://github.com/user-attachments/assets/f0a912da-d814-4187-adc9-09db46f5e08c" />
+<p>
+<img width="409" height="891" alt="Step 3c" src="https://github.com/user-attachments/assets/1ba31c98-f9d5-491c-bad7-fb4ac751428f" />
 
 </p>
 <p>
   
-- On the next Page:
-  - Double Check to make sure everything is to your liking.
-  - Then select “Create”.
+- Next:
+  - Select "ICMPv4” for Protocol.
+  -	Select “Deny” for Action.
+  -	Type in “290” for the Priority box.
+  -	Then click on “Add”.
+
 
 </p>
 <br />
