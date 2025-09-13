@@ -174,13 +174,14 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 <p>
-<img width="518" height="213" alt="Step 2f" src="https://github.com/user-attachments/assets/3e1d9a16-318f-4dfb-b451-6b34fd4d274f" />
+<img width="539" height="273" alt="Step 2f" src="https://github.com/user-attachments/assets/9e815873-470a-49e2-abe9-0e0f682a0646" />
+
 </p>
 <p>
 
-- Go back to the “Basics” tab. 
-- Scroll to the bottom and check the Licensing checkbox to confirm.
-- Then select “Review + Create”.
+- Once in PowerShell type “ping” then type or paste your Linux private ip number.
+  - Example: ping 10.1.0.5 
+
 
 </p>
 <br />
@@ -190,9 +191,7 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <p>
 
-- On the next Page:
-  -	Double Check to make sure everything is to your liking.
-  -	Then select “Create”.
+- Next, PowerShell will display the ping statistics of the packets sent by the Linux VM and the packets received by the Windows VM.
 
 
 </p>
