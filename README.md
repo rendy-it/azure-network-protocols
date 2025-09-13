@@ -267,27 +267,180 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 <p>
-<img width="383" height="407" alt="Step 3d" src="https://github.com/user-attachments/assets/2ac1e6f2-5449-4bd3-bcdc-bb0ff0db0852" />
+<img width="1594" height="297" alt="Step 3d" src="https://github.com/user-attachments/assets/3d47fd83-f1ff-4631-b95a-b884cb9f7400" />
+
 
 </p>
 <p>
   
-- Just like Step 2, deployment will take a couple of minutes, so be patient.
-- Once completed you can click on “Go to resource”. 
+- We now have configured a rule that will deny incoming icmp traffic from any source to any destination for the Linux-VM.  
 
   
 </p>
 <br />
 <p>
-<img width="1189" height="715" alt="Step 3e" src="https://github.com/user-attachments/assets/66fc8e83-ad65-4536-9f66-64000cf578d8" />
+<img width="1716" height="939" alt="Step 3e" src="https://github.com/user-attachments/assets/94e5b7f9-d261-491f-a73d-adb1f055233a" />
+
 
 </p>
 <p>
   
-- Then you will be able to see the VM that you just created with all the information.
+- Once you go back to the Windows VM. You will now see that all network traffic requests have been timed out in both PowerShell and Wireshark.
 
 </p>
 <br />
+<p>
+<img width="350" height="395" alt="Step 3f" src="https://github.com/user-attachments/assets/55303eba-beb5-4162-a547-a63ecaef9951" />
+
+
+</p>
+<p>
+  
+- Next, you can now delete the rule from your Linux-VM.
+- Once deleted, the traffic flow will resume.
+  
+</p>
+<br />
+<p>
+<img width="1555" height="598" alt="Step 3g" src="https://github.com/user-attachments/assets/6e4b28c6-d8e6-487f-9baa-df5a851f11a6" />
+
+
+
+</p>
+<p>
+  
+- To stop the network traffic flow, go back to PowerShell and hit “CTRL +C” on your keyboard.   
+
+  
+</p>
+<br />
+
+
+
+
+
+
+
+
+<h2> << Step 4: Observe SSH (Secure Shell) Traffic >> </h2>
+
+<p>
+<img width="957" height="315" alt="Step 4" src="https://github.com/user-attachments/assets/4fce0dcb-9f13-451c-90a0-fb67593d28ea" />
+
+
+</p>
+<p>
+  
+- Go Back to the Windows-VM. Have both Wireshark and PowerShell opened.
+  - On Wireshark, start a packet capture by following the early steps of Steps 2.
+  -	At the “Apply a Display filter” bar at the top.
+  -	Type “ssh” and press enter.
+
+
+
+</p>
+<br />
+<p>
+<img width="650" height="198" alt="Step 4a" src="https://github.com/user-attachments/assets/f3d46c1a-d86b-45c8-b613-4bf894e8a036" />
+
+
+
+</p>
+<p>
+  
+- Then head over to PowerShell.
+  - Type ssh, then the username for your Linux VM, then type “@” and then the private ip number. Then hit enter. 
+  - Example: username@<private IP address>.
+  - Mine is “rendylab@10.1.0.5”.
+
+
+
+</p>
+<br />
+<p>
+<img width="885" height="739" alt="Step 3b" src="https://github.com/user-attachments/assets/dec98a50-727d-478f-88f0-05423c558a2e" />
+
+</p>
+<p>
+  
+- Go to the settings tab:
+  -	Click on “Inbound security rules” then click on “+Add”. 
+
+
+
+</p>
+<br />
+<p>
+<img width="409" height="891" alt="Step 3c" src="https://github.com/user-attachments/assets/1ba31c98-f9d5-491c-bad7-fb4ac751428f" />
+
+</p>
+<p>
+  
+- Next:
+  - Select "ICMPv4” for Protocol.
+  -	Select “Deny” for Action.
+  -	Type in “290” for the Priority box.
+  -	Then click on “Add”.
+
+
+</p>
+<br />
+<p>
+<img width="1626" height="352" alt="Step 3d" src="https://github.com/user-attachments/assets/9b8ce01f-d6ac-4ac4-8204-5b21ab216fb2" />
+
+</p>
+<p>
+  
+- We now have configured a rule that will deny incoming icmp traffic from any source to any destination for the Linux-VM.  
+
+  
+</p>
+<br />
+<p>
+<img width="1716" height="939" alt="Step 3e" src="https://github.com/user-attachments/assets/94e5b7f9-d261-491f-a73d-adb1f055233a" />
+
+
+</p>
+<p>
+  
+- Once you go back to the Windows VM. You will now see that all network traffic requests have been timed out in both PowerShell and Wireshark.
+
+</p>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h2> << Conclusion >> </h2>
 
 <p>
