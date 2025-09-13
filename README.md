@@ -128,55 +128,49 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 
-<p>
-<img width="580" height="701" alt="Step 2b" src="https://github.com/user-attachments/assets/4ba29e83-782a-4bd0-8d37-3d4a90663989" />
-
+<p><img width="973" height="529" alt="Step 2b" src="https://github.com/user-attachments/assets/6d2837e6-0f1a-48bf-bc7a-e4d3db2945dd" />
 <p>
   
-- On the next page, select the resource group that we created in Step 1.
-  - Give the VM a name.
-  - Select a Zone
-  - Select “Windows 10 Pro” for the OS image.
-    - Click on “See all images” to search for it, if you can’t find it.
-  - And select at least 2 vcpus, with 8 or 16 gig memory
-    - Click on “See all sizes” to search for it, if you can’t find it.
+- Once you do that, you will see various network traffic flows occurring.
    
-  
 </p>
 <br />
 
 <p>
-<img width="692" height="384" alt="Step 2c" src="https://github.com/user-attachments/assets/f7044866-727f-49ed-b3fe-de4ea2a3a487" />
+<img width="689" height="303" alt="Step 2c" src="https://github.com/user-attachments/assets/1b9707f7-40af-4f8a-8769-cc5f36e5737b" />
 
 </p>
 <p>
   
-- Next, create a Username and Password.
+- At the “Apply a Display filter” bar at the top:
+  - Type “icmp” and press enter.
+  - All the of traffic flows will disappear. Because it will now only show traffic that is pinged.
+
 
 </p>
 <br />
 
 <p>
-<img width="355" height="402" alt="Step 2d" src="https://github.com/user-attachments/assets/c7a8852e-036a-41c1-ab3a-c5442e06b2a9" /> 
+<img width="667" height="241" alt="Step 2d" src="https://github.com/user-attachments/assets/be6cb5ad-4737-4b5b-a2b1-391b8dca2fd9" />
+
 
 </p>
 <p>
   
-- Next, go back up and click on the “Networking” tab.
+- Next, minimize the windows VM, go back to your Azure VMs web page to get the Linux VM private ip address.
+   - You will find it under the Networking section of your VM's properties tab.
    
 </p>
 <br />
 <p>
-<img width="548" height="402" alt="Step 2e" src="https://github.com/user-attachments/assets/278ba11d-16f4-4902-aa64-c79d17cd1fe0" />
-
+<img width="748" height="616" alt="Step 2e" src="https://github.com/user-attachments/assets/f1b17fd1-3a0f-44f9-819e-d9fb672e7bc9" />
 
 </p>
 <p>
 
-- On the next page:
-  - Create a new name for the “Virtual network” box.
-  - You will need that same virtual network for the Linux Virtual machine.
-  - Everything else is set by default.
+- Next, go back to the Windows VM, go to the windows search bar, search for “PowerShell”.
+  - Once you find it open PowerShell as an administrator.
+
 </p>
 <br />
 <p>
