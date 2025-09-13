@@ -208,44 +208,32 @@ This tutorial demonstrates the methods of observing various network traffics to 
   
 </p>
 <br />
+
+<h2> << Step 3: Configure a Firewall (NSG: Network Security Group) >> </h2>
+
 <p>
-<img width="906" height="555" alt="Step 2j" src="https://github.com/user-attachments/assets/6bcdbe06-270b-4f2e-9e41-58029cdb5857" />
+<img width="1415" height="990" alt="Step 3" src="https://github.com/user-attachments/assets/0a2adf23-450a-41d0-8ebb-f217976337ae" />
 
 </p>
 <p>
   
-- Then you will be able to see the VM that you just created with all the information.
-  
-</p>
-<br />
-<h2> << Step 3: Create a Linux Virtual Machine within Azure >> </h2>
-
-<p>
-<img width="643" height="595" alt="Step 3" src="https://github.com/user-attachments/assets/887a00b4-561a-4e1c-a6e4-ed3434c42aa8" />
-
-</p>
-<p>
-  
-- Repeat the same step process as you did in Step 2:
-  - Select the same resource group as the Windows VM.
-  - Give the VM a name.
-  - Select a Zone.
-  - Select “Ubuntu Server 24.04 LTS – x64 Gen2”.
-
+- Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM.
+  - In PowerShell, type the command “ping 10.1.05 -t”
+  - The command makes the Windows VM ping the Linux VM nonstop.
 
 
 </p>
 <br />
 <p>
-<img width="674" height="491" alt="Step 3a" src="https://github.com/user-attachments/assets/41b9416c-1ec1-4a42-bb96-1a6f57134131" />
+<img width="1654" height="491" alt="Step 3a" src="https://github.com/user-attachments/assets/b19c82b3-f0d7-43d8-8dff-0afd2e4f6e56" />
 
 
 </p>
 <p>
   
-- For the memory size, keep it the same as the Windows VM.
-- Next, check the “Password” box for “Authentication type”.
-- Next, create a Username and Password.
+- Head back to the VM page of your Azure Resource Group and select your Linux VM.
+  - Go to the “Network Settings” page which can be found under the “Networking” tab.
+  -	Click on the “Network security group” link which will take you to the “Linux-VM-nsg”.
 
 
 </p>
