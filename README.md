@@ -36,7 +36,7 @@ This tutorial demonstrates the methods of observing various network traffics to 
 <h2>Steps in Executing, Observing and Inspecting</h2>
 <h2> << Step 1: Connect to VM using RDP and Install Wireshark >> </h2>
 <p>
-<img width="1351" height="394" alt="Step 1" src="https://github.com/user-attachments/assets/b472a94f-237c-40af-bba7-235dd7e06acb" />
+<img width="1351" height="394" alt="Step 1" src="https://github.com/user-attachments/assets/9a468935-ef0c-41f0-abca-5f849e58558e" />
 
 </p>
 <p>
@@ -46,7 +46,7 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 
-<p><img width="1126" height="391" alt="Step 1a" src="https://github.com/user-attachments/assets/3c2fc1cd-7b2d-42b4-bf32-5e6eeeb8f4cd" />
+<img width="1126" height="391" alt="Step 1a" src="https://github.com/user-attachments/assets/f58eb304-f16e-4107-8b77-ada8a87988aa" />
 
 <p>
   
@@ -58,10 +58,7 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 
-<p><img width="338" height="210" alt="Step 1b" src="https://github.com/user-attachments/assets/f7f2adfd-977a-46f9-b21d-3e9b3bb90ad2" /> <img width="88" height="210" alt="Right Pointing Arrow for Step 1b" src="https://github.com/user-attachments/assets/c6a362d6-6e14-4e6f-ace6-fd674109a7e8" /> <img width="343" height="235" alt="Step 1b1" src="https://github.com/user-attachments/assets/77f06005-fb1c-41eb-bdd5-0e107fc3bb20" />
-
-
-
+<img width="338" height="210" alt="Step 1b" src="https://github.com/user-attachments/assets/6b9c3942-8f6a-4fe5-bfa6-4217deb82e7c" /> <img width="88" height="210" alt="Right Pointing Arrow for Step 1b" src="https://github.com/user-attachments/assets/057bcdc6-657b-4729-8145-5e76b138e218" /> <img width="343" height="235" alt="Step 1b1" src="https://github.com/user-attachments/assets/c435dd5c-2240-40df-b03f-94e04ce06b83" />
 
 
 </p>
@@ -76,7 +73,7 @@ This tutorial demonstrates the methods of observing various network traffics to 
 <br />
 
 <p>
-<img width="1415" height="776" alt="Step 1c" src="https://github.com/user-attachments/assets/2d33530e-3ac4-4dc7-b109-1ec92f573263" />
+<img width="1415" height="776" alt="Step 1c" src="https://github.com/user-attachments/assets/7d62e908-70f6-49ed-b82a-b9dfe4c90242" />
 
 </p>
 <p>
@@ -89,7 +86,7 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 <p>
-<img width="1391" height="721" alt="Step 1d" src="https://github.com/user-attachments/assets/2743908a-b103-46c6-9420-532158d595c4" />
+<img width="1391" height="721" alt="Step 1d" src="https://github.com/user-attachments/assets/9af8b2f7-3ad4-4205-9548-1b9d0abc571b" />
 
 
 </p>
@@ -100,7 +97,7 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 <p>
-<img width="1188" height="894" alt="Step 1e" src="https://github.com/user-attachments/assets/3012d681-9abd-43ba-928d-679d4294af85" />
+<img width="1188" height="894" alt="Step 1e" src="https://github.com/user-attachments/assets/7377b6b2-cd74-4a07-8789-76d567ee99fc" />
 
 </p>
 <p>
@@ -113,7 +110,7 @@ This tutorial demonstrates the methods of observing various network traffics to 
 <h2> << Step 2: Observe ICMP (Internet Control Message Protocol) Traffic >> </h2>
 
 <p>
-<img width="887" height="735" alt="Step 2a" src="https://github.com/user-attachments/assets/59a944af-95e9-4750-b433-bae4a85fa8bf" />
+<img width="887" height="735" alt="Step 2a" src="https://github.com/user-attachments/assets/4d8c0aba-fa8f-4ddb-8c8f-d238ac864b95" />
 
 </p>
 <p>
@@ -124,11 +121,11 @@ This tutorial demonstrates the methods of observing various network traffics to 
   - This will initiate a packet capture. 
 
 
-
 </p>
 <br />
 
-<p><img width="973" height="529" alt="Step 2b" src="https://github.com/user-attachments/assets/6d2837e6-0f1a-48bf-bc7a-e4d3db2945dd" />
+<img width="973" height="529" alt="Step 2b" src="https://github.com/user-attachments/assets/7ebace2b-a739-4781-87bd-e0c4a2921225" />
+
 <p>
   
 - Once you do that, you will see various network traffic flows occurring.
@@ -137,7 +134,8 @@ This tutorial demonstrates the methods of observing various network traffics to 
 <br />
 
 <p>
-<img width="689" height="303" alt="Step 2c" src="https://github.com/user-attachments/assets/1b9707f7-40af-4f8a-8769-cc5f36e5737b" />
+<img width="689" height="303" alt="Step 2c" src="https://github.com/user-attachments/assets/aca34aa7-c4fd-410d-af56-0453b25d4beb" />
+
 
 </p>
 <p>
@@ -151,7 +149,7 @@ This tutorial demonstrates the methods of observing various network traffics to 
 <br />
 
 <p>
-<img width="667" height="241" alt="Step 2d" src="https://github.com/user-attachments/assets/be6cb5ad-4737-4b5b-a2b1-391b8dca2fd9" />
+<img width="667" height="241" alt="Step 2d" src="https://github.com/user-attachments/assets/cceb643f-f595-477a-ab68-9f2a732a92a1" />
 
 
 </p>
@@ -163,7 +161,7 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 <p>
-<img width="748" height="616" alt="Step 2e" src="https://github.com/user-attachments/assets/f1b17fd1-3a0f-44f9-819e-d9fb672e7bc9" />
+<img width="748" height="616" alt="Step 2e" src="https://github.com/user-attachments/assets/2796a37d-ccbf-47a6-ad72-eab71a168d63" />
 
 </p>
 <p>
@@ -174,7 +172,7 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 <p>
-<img width="539" height="273" alt="Step 2f" src="https://github.com/user-attachments/assets/9e815873-470a-49e2-abe9-0e0f682a0646" />
+<img width="538" height="268" alt="Step 2f" src="https://github.com/user-attachments/assets/ffc7780c-4adc-4917-8369-ab8d91b38847" />
 
 </p>
 <p>
@@ -186,7 +184,7 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 <p>
-<img width="592" height="395" alt="Step 2g" src="https://github.com/user-attachments/assets/e1c60f5d-1c69-4cac-8059-5b3717b8d54c" />
+<img width="592" height="395" alt="Step 2g" src="https://github.com/user-attachments/assets/d5979511-5fb3-4127-84dc-9eda418faa11" />
 
 
 </p>
@@ -198,7 +196,7 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 <p>
-<img width="969" height="355" alt="Step 2h" src="https://github.com/user-attachments/assets/00b36039-e809-4920-98e4-5229bac064ed" />
+<img width="969" height="355" alt="Step 2h" src="https://github.com/user-attachments/assets/af1b77ed-aed8-4761-acab-dbbb2cc65ddc" />
 
 
 </p>
