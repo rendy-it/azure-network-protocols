@@ -186,7 +186,8 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 <p>
-<img width="336" height="266" alt="Step 2g" src="https://github.com/user-attachments/assets/87223c89-d6b7-40e8-a7fd-63733f2aad11" /> <img width="88" height="266" alt="Arrow-Pointing-Right for Step 2g" src="https://github.com/user-attachments/assets/56f4a4a0-919b-4b9b-8fda-1c7de3a359ab" /> <img width="336" height="266" alt="Step 2g1" src="https://github.com/user-attachments/assets/49586aa9-c625-45df-a11e-86d8f3955cb1" />
+<img width="592" height="395" alt="Step 2g" src="https://github.com/user-attachments/assets/e1c60f5d-1c69-4cac-8059-5b3717b8d54c" />
+
 
 </p>
 <p>
@@ -197,15 +198,15 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 <p>
-<img width="349" height="370" alt="Step 2h" src="https://github.com/user-attachments/assets/aff3ecd9-2639-4a03-918d-b86275aa8944" /> <img width="88" height="370" alt="Arrow-Pointing-Right for Step 2hi" src="https://github.com/user-attachments/assets/b5bbeb1f-0059-4fc0-95fa-d12109050b76" /> <img width="344" height="370" alt="Step 2i" src="https://github.com/user-attachments/assets/23d6a757-ebb3-45a1-83d8-914cab48ab51" />
-
+<img width="969" height="355" alt="Step 2h" src="https://github.com/user-attachments/assets/00b36039-e809-4920-98e4-5229bac064ed" />
 
 
 </p>
 <p>
   
-- Deployment will take a couple of minutes to complete, so be patient.
-- Once completed you can click on “Go to resource”. 
+- Once you ping, Wireshark will capture and display its icmp traffic flow. 
+  - Will display ping requests from the Windows VM (10.1.0.4) and replies from the Linux VM (10.1.0.5) within the Wireshark interface.
+
   
 </p>
 <br />
