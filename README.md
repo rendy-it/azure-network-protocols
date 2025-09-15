@@ -358,13 +358,14 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 <p>
-<img width="885" height="739" alt="Step 3b" src="https://github.com/user-attachments/assets/dec98a50-727d-478f-88f0-05423c558a2e" />
+<img width="751" height="304" alt="Step 4a" src="https://github.com/user-attachments/assets/a7be76cf-ffd9-41ef-9186-cf912f4a512f" />
+
 
 </p>
 <p>
   
-- Go to the settings tab:
-  -	Click on “Inbound security rules” then click on “+Add”. 
+- Then, type in the password for your Linux-VM account and hit enter.
+  - You may not see what you are typing when you type your password in but rest assured it is being typed.
 
 
 
