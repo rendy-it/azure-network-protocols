@@ -358,7 +358,8 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 <p>
-<img width="751" height="304" alt="Step 4a" src="https://github.com/user-attachments/assets/a7be76cf-ffd9-41ef-9186-cf912f4a512f" />
+<img width="751" height="304" alt="Step 4a" src="https://github.com/user-attachments/assets/305d0ac5-672f-43b2-b073-f80079954c92" />
+
 
 
 </p>
@@ -372,7 +373,8 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 <p>
-<img width="870" height="908" alt="Step 4b" src="https://github.com/user-attachments/assets/cedc9854-954f-40bb-bd4c-dbfb4318a9e3" />
+<img width="827" height="871" alt="Step 4b" src="https://github.com/user-attachments/assets/e516d2c3-de02-4ca2-a79c-fab3316d3dab" />
+
 
 
 </p>
