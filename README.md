@@ -372,16 +372,16 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 <p>
-<img width="409" height="891" alt="Step 3c" src="https://github.com/user-attachments/assets/1ba31c98-f9d5-491c-bad7-fb4ac751428f" />
+<img width="870" height="908" alt="Step 4b" src="https://github.com/user-attachments/assets/cedc9854-954f-40bb-bd4c-dbfb4318a9e3" />
+
 
 </p>
 <p>
   
-- Next:
-  - Select "ICMPv4” for Protocol.
-  -	Select “Deny” for Action.
-  -	Type in “290” for the Priority box.
-  -	Then click on “Add”.
+- Once the command is successful, inside of PowerShell, it will be as if you are connected inside of the Linux-VM command prompt.
+- You are able to experiment with plenty of Linux commands of your choosing.
+- Once you are done and satisfied, type exit.
+
 
 
 </p>
