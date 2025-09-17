@@ -381,20 +381,21 @@ This tutorial demonstrates the methods of observing various network traffics to 
 <p>
   
 - Once the command is successful, inside of PowerShell, it will be as if you are connected inside of the Linux-VM command prompt.
-- You are able to experiment with plenty of Linux commands of your choosing.
-- Once you are done and satisfied, type exit.
 
 
 
 </p>
 <br />
 <p>
-<img width="1626" height="352" alt="Step 3d" src="https://github.com/user-attachments/assets/9b8ce01f-d6ac-4ac4-8204-5b21ab216fb2" />
+<img width="1146" height="766" alt="Step 4c" src="https://github.com/user-attachments/assets/10b14489-afc2-4d5a-80d6-4b6ea978695d" />
+
+
 
 </p>
 <p>
   
-- We now have configured a rule that will deny incoming icmp traffic from any source to any destination for the Linux-VM.  
+- You are able to experiment with plenty of Linux commands of your choosing.
+- Once you are done and satisfied, type exit.
 
   
 </p>
