@@ -470,15 +470,32 @@ This tutorial demonstrates the methods of observing various network traffics to 
 
 </p>
 <br />
-<p><img width="1643" height="1093" alt="Step 4c" src="https://github.com/user-attachments/assets/4092ef1d-e8fb-483c-a6b1-3673ea13bdb0" />
+<img width="845" height="514" alt="Step 5d" src="https://github.com/user-attachments/assets/0c67c274-7afc-4af2-94a6-4a6ca53a9f8a" />
+
 
 
 
 </p>
 <p>
   
-- You are able to experiment with plenty of Linux commands of your choosing.
-- Once you are done and satisfied, type exit, press enter to leave.
+- Then once the VM restarts, you will notice the ip get released and renewed on the PowerShell interface.
+
+  
+</p>
+<br />
+
+<img width="1096" height="380" alt="Step 5d1" src="https://github.com/user-attachments/assets/6b44648e-b526-4393-a034-356fbc6be73c" />
+
+
+
+
+
+</p>
+<p>
+
+  
+- And on the Wireshark interface you will notice the traffic flow of the DHCP (Discover, Offer, Request and Acknowledgement) process.
+- 
 
   
 </p>
