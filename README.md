@@ -495,12 +495,115 @@ This tutorial demonstrates the methods of observing various network traffics to 
 
   
 - And on the Wireshark interface you will notice the traffic flow of the DHCP (Discover, Offer, Request and Acknowledgement) process.
-- 
+  
 
   
 </p>
 <br />
 
+<h2> << Step 6: Observe DNS (Domain Name System) Traffic >> </h2>
+
+<p>
+<img width="667" height="243" alt="Step 6" src="https://github.com/user-attachments/assets/abafcdf5-0721-407c-8926-4371f7b899f1" />
+
+
+</p>
+<p>
+
+  
+- Now we are going to test with DNS Traffic.
+- Follow the same initial steps as Step 4. 
+- At the “Apply a Display filter” bar at the top of the Wireshark interface.
+  - Type “DNS” and press enter.
+
+
+
+</p>
+<br />
+<p>
+<img width="762" height="858" alt="Step 6a" src="https://github.com/user-attachments/assets/3d59b265-b00e-4a8f-900d-77fba7a68281" />
+
+
+
+
+</p>
+<p>
+  
+- Then head over to PowerShell:
+  - To look up the ip of a particular website domain, type “nslookup” followed by the website and press enter.
+  - Example: “nslookup google.com”
+  - It will then display that website’s ip address. Could be one or multiple ip addresses. 
+
+
+
+
+
+</p>
+<br />
+<p>
+<img width="1563" height="1011" alt="Step 5b" src="https://github.com/user-attachments/assets/6fc6ca79-0daf-4107-9f7e-e1b411cd3287" />
+
+
+
+</p>
+<p>
+  
+- Then save the file as “dhcp.bat”, make sure the “save as type is on “All Files”, and save it to the “C:\ProgramData”
+- The batch file is made to release the Window-VM ip address and then renew it right way. This is to help execute the DHCP process without disconnecting the VM in order to observe the traffic flow in Wireshark.
+
+
+
+
+</p>
+<br />
+<p>
+<img width="1095" height="948" alt="Step 5c" src="https://github.com/user-attachments/assets/fb8b9505-e14f-4b84-8a0a-d21d469ce272" />
+
+
+
+</p>
+<p>
+  
+- Next, head over to PowerShell.
+ - Type “cd C:\programdata” then press enter.
+ - Then type “ls” and press enter to list the content of that directory. Which should confirm that the “dhcp.bat” file is in that directory.
+ - Next, type “. \dhcp.bat” and press enter which will temporarily stop and then restart the VM.
+
+
+
+
+</p>
+<br />
+<img width="845" height="514" alt="Step 5d" src="https://github.com/user-attachments/assets/0c67c274-7afc-4af2-94a6-4a6ca53a9f8a" />
+
+
+
+
+</p>
+<p>
+  
+- Then once the VM restarts, you will notice the ip get released and renewed on the PowerShell interface.
+
+  
+</p>
+<br />
+
+<img width="1096" height="380" alt="Step 5d1" src="https://github.com/user-attachments/assets/6b44648e-b526-4393-a034-356fbc6be73c" />
+
+
+
+
+
+</p>
+<p>
+
+  
+- And on the Wireshark interface you will notice the traffic flow of the DHCP (Discover, Offer, Request and Acknowledgement) process.
+  
+
+  
+</p>
+<br />
 
 
 
