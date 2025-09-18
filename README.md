@@ -595,7 +595,8 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 <p>
-<img width="762" height="858" alt="Step 6a" src="https://github.com/user-attachments/assets/3d59b265-b00e-4a8f-900d-77fba7a68281" />
+<img width="1262" height="934" alt="Step 7a" src="https://github.com/user-attachments/assets/112cc633-13d5-4d5a-b8c3-2f46fff5b820" />
+
 
 
 
@@ -603,10 +604,9 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <p>
   
-- Then head over to PowerShell:
-  - To look up the ip of a particular website domain, type “nslookup” followed by the website and press enter.
-  - Example: “nslookup google.com”
-  - It will then display that website’s ip address. Could be one or multiple ip addresses. 
+- You will then see non-stop spam of traffic flow displayed.
+- Traffic is always displayed because the RDP protocol is constantly showing a live stream from one connection to another.
+
 
 
 
@@ -614,98 +614,15 @@ This tutorial demonstrates the methods of observing various network traffics to 
 
 </p>
 <br />
-<p>
-<img width="1258" height="862" alt="Step 6a1" src="https://github.com/user-attachments/assets/3bcd44e1-8aee-4052-a352-95148fdf7aab" />
-
-
-
-
-</p>
-<p>
-  
-- And on the Wireshark interface you will notice the DNS traffic flow of the website(s) of what you looked for in PowerShell.
-
-
-
-
-</p>
-<br />
-<p>
-<img width="1467" height="898" alt="Step 6b" src="https://github.com/user-attachments/assets/3fccf233-c10d-48b1-9271-ea1233036706" />
-
-
-
-
-</p>
-<p>
-  
-- To test the ip address given by the results of the command, go to the browser and type in the ip adress number on the search bar and press enter.
-- To note. It does not always work. Not all ip addresses given for a particular website will work if you type the number in the search bar.
-
-
-
-
-</p>
-<br />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <h2> << Conclusion >> </h2>
 
 <p>
-<img width="1409" height="685" alt="Step 3f" src="https://github.com/user-attachments/assets/52648836-e25e-47ae-a0b2-46df78c29910" />
-
-</p>
-<p>
   
 - Go Back to your resource group page.
-- There you will be able to see all that you have created so far.
-  - A Windows 10 Virtual Machine.
-  - A Linux Virtual Machine.
-
-</p>
-<br />
-<p>
-<img width="1360" height="405" alt="Step 3g" src="https://github.com/user-attachments/assets/841c623c-a846-4ae9-8778-3620105db576" />
-
-
-
-</p>
-<p>
-  
+- Make sure your VMs are on “Stop” status if you are not going to use them right away. This way you will not be charged while they are not in use.
 - Also, make sure your VMs are on “Stop” status if you are not going to use them right away. This way you will not be charged while they are not in use.
-- To conclude, we have successfully created both a Windows and Linux Virtual Machine inside of the Microsoft Azure cloud infrastructure.
+- To conclude, we have successfully connected to RDP, successfully observed various network traffics to and from Azure’s virtual machines with Wireshark. We connected to the Linux-VM with PowerShell. As well as experiment with Network Security Groups with configuring a firewall with a security rule to deny inbound traffic.
 
 
 </p>
