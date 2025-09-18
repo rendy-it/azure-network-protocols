@@ -386,8 +386,7 @@ This tutorial demonstrates the methods of observing various network traffics to 
 
 </p>
 <br />
-<p>
-<img width="1146" height="766" alt="Step 4c" src="https://github.com/user-attachments/assets/10b14489-afc2-4d5a-80d6-4b6ea978695d" />
+<p><img width="1643" height="1093" alt="Step 4c" src="https://github.com/user-attachments/assets/4092ef1d-e8fb-483c-a6b1-3673ea13bdb0" />
 
 
 
@@ -395,22 +394,92 @@ This tutorial demonstrates the methods of observing various network traffics to 
 <p>
   
 - You are able to experiment with plenty of Linux commands of your choosing.
-- Once you are done and satisfied, type exit.
+- Once you are done and satisfied, type exit, press enter to leave.
 
   
 </p>
 <br />
+
+<h2> << Step 5: Observe DHCP (Dynamic Host Configuration Protocol) Traffic >> </h2>
+
 <p>
-<img width="1716" height="939" alt="Step 3e" src="https://github.com/user-attachments/assets/94e5b7f9-d261-491f-a73d-adb1f055233a" />
+<img width="957" height="315" alt="Step 4" src="https://github.com/user-attachments/assets/4fce0dcb-9f13-451c-90a0-fb67593d28ea" />
 
 
 </p>
 <p>
   
-- Once you go back to the Windows VM. You will now see that all network traffic requests have been timed out in both PowerShell and Wireshark.
+- Reset both Wireshark and PowerShell if you want a cleaner display.
+- Repeat the early steps of Step 4.
+- At the “Apply a Display filter” bar at the top of the Wireshark interface.
+  - Type “DHCP” and press enter.
+
+
+
 
 </p>
 <br />
+<p>
+<img width="650" height="198" alt="Step 4a" src="https://github.com/user-attachments/assets/f3d46c1a-d86b-45c8-b613-4bf894e8a036" />
+
+
+
+</p>
+<p>
+  
+- Then head over to PowerShell.
+  - Type ssh, then the username for your Linux VM, then type “@” and then the private ip number. Then hit enter. 
+  - Example: username@<private IP address>.
+  - Mine is “rendylab@10.1.0.5”.
+
+
+
+</p>
+<br />
+<p>
+<img width="751" height="304" alt="Step 4a" src="https://github.com/user-attachments/assets/305d0ac5-672f-43b2-b073-f80079954c92" />
+
+
+
+</p>
+<p>
+  
+- Then, type in the password for your Linux-VM account and hit enter.
+  - You may not see what you are typing when you type your password in but rest assured it is being typed.
+
+
+
+</p>
+<br />
+<p>
+<img width="827" height="871" alt="Step 4b" src="https://github.com/user-attachments/assets/e516d2c3-de02-4ca2-a79c-fab3316d3dab" />
+
+
+
+</p>
+<p>
+  
+- Once the command is successful, inside of PowerShell, it will be as if you are connected inside of the Linux-VM command prompt.
+
+
+
+</p>
+<br />
+<p><img width="1643" height="1093" alt="Step 4c" src="https://github.com/user-attachments/assets/4092ef1d-e8fb-483c-a6b1-3673ea13bdb0" />
+
+
+
+</p>
+<p>
+  
+- You are able to experiment with plenty of Linux commands of your choosing.
+- Once you are done and satisfied, type exit, press enter to leave.
+
+  
+</p>
+<br />
+
+
 
 
 
