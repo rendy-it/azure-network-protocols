@@ -403,7 +403,7 @@ This tutorial demonstrates the methods of observing various network traffics to 
 <h2> << Step 5: Observe DHCP (Dynamic Host Configuration Protocol) Traffic >> </h2>
 
 <p>
-<img width="957" height="315" alt="Step 4" src="https://github.com/user-attachments/assets/4fce0dcb-9f13-451c-90a0-fb67593d28ea" />
+<img width="972" height="287" alt="Step 5" src="https://github.com/user-attachments/assets/ba8e908e-77ec-44ca-9597-9bd3f471ed10" />
 
 
 </p>
@@ -420,46 +420,51 @@ This tutorial demonstrates the methods of observing various network traffics to 
 </p>
 <br />
 <p>
-<img width="650" height="198" alt="Step 4a" src="https://github.com/user-attachments/assets/f3d46c1a-d86b-45c8-b613-4bf894e8a036" />
+<img width="751" height="306" alt="Step 5a" src="https://github.com/user-attachments/assets/98574e85-f6c9-49e0-8b64-2a3830d7f298" />
+
 
 
 
 </p>
 <p>
   
-- Then head over to PowerShell.
-  - Type ssh, then the username for your Linux VM, then type “@” and then the private ip number. Then hit enter. 
-  - Example: username@<private IP address>.
-  - Mine is “rendylab@10.1.0.5”.
+- To avoid any errors, before we run the command in PowerShell, open up notepad and type in these two commands.
+  - “ipconfig/release” & “ipconfig/renew”
+
 
 
 
 </p>
 <br />
 <p>
-<img width="751" height="304" alt="Step 4a" src="https://github.com/user-attachments/assets/305d0ac5-672f-43b2-b073-f80079954c92" />
+<img width="1563" height="1011" alt="Step 5b" src="https://github.com/user-attachments/assets/6fc6ca79-0daf-4107-9f7e-e1b411cd3287" />
 
 
 
 </p>
 <p>
   
-- Then, type in the password for your Linux-VM account and hit enter.
-  - You may not see what you are typing when you type your password in but rest assured it is being typed.
+- Then save the file as “dhcp.bat”, make sure the “save as type is on “All Files”, and save it to the “C:\ProgramData”
+- The batch file is made to release the Window-VM ip address and then renew it right way. This is to help execute the DHCP process without disconnecting the VM in order to observe the traffic flow in Wireshark.
+
 
 
 
 </p>
 <br />
 <p>
-<img width="827" height="871" alt="Step 4b" src="https://github.com/user-attachments/assets/e516d2c3-de02-4ca2-a79c-fab3316d3dab" />
+<img width="1095" height="948" alt="Step 5c" src="https://github.com/user-attachments/assets/fb8b9505-e14f-4b84-8a0a-d21d469ce272" />
 
 
 
 </p>
 <p>
   
-- Once the command is successful, inside of PowerShell, it will be as if you are connected inside of the Linux-VM command prompt.
+- Next, head over to PowerShell.
+ - Type “cd C:\programdata” then press enter.
+ - Then type “ls” and press enter to list the content of that directory. Which should confirm that the “dhcp.bat” file is in that directory.
+ - Next, type “. \dhcp.bat” and press enter which will temporarily stop and then restart the VM.
+
 
 
 
